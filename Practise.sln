@@ -7,13 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practise.AppHost", "Practis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practise.ServiceDefaults", "Practise.ServiceDefaults\Practise.ServiceDefaults.csproj", "{5742F489-8F8A-4806-AB4B-C71F86F9A36F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{0C564F81-D858-49F7-949A-CFC6495479E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAPI", "APIs\WeatherAPI\WeatherAPI.csproj", "{C3C95821-72B3-4329-967B-6622EDB3AE21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A7DE2FF8-4639-486A-8CB4-DD1E56B3BEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +25,15 @@ Global
 		{5742F489-8F8A-4806-AB4B-C71F86F9A36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5742F489-8F8A-4806-AB4B-C71F86F9A36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5742F489-8F8A-4806-AB4B-C71F86F9A36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C95821-72B3-4329-967B-6622EDB3AE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C95821-72B3-4329-967B-6622EDB3AE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C95821-72B3-4329-967B-6622EDB3AE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C95821-72B3-4329-967B-6622EDB3AE21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3C95821-72B3-4329-967B-6622EDB3AE21} = {0C564F81-D858-49F7-949A-CFC6495479E4}
 	EndGlobalSection
 EndGlobal
