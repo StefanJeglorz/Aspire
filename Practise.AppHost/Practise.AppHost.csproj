@@ -11,10 +11,15 @@
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="8.1.0" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="8.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\APIs\WeatherAPI\WeatherAPI.csproj" />
+    <ProjectReference Include=".\..\APIs\WeatherAPI\WeatherAPI.csproj" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <ProjectReference Include=".\..\APIs\ContactAPI\ContactAPI.csproj" />
   </ItemGroup>
 
 </Project>
