@@ -16,10 +16,11 @@
 
   <ItemGroup>
     <ProjectReference Include=".\..\APIs\WeatherAPI\WeatherAPI.csproj" />
+    <ProjectReference Include=".\..\APIs\ContactAPI\ContactAPI.csproj" />
   </ItemGroup>
 
-    <ItemGroup>
-    <ProjectReference Include=".\..\APIs\ContactAPI\ContactAPI.csproj" />
+  <ItemGroup>
+    <ProjectReference Include="..\Clients\Blazor.WASM.App\Blazor.WASM.App.csproj" />
   </ItemGroup>
 
 </Project>
